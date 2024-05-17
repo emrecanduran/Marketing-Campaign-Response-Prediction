@@ -32,7 +32,7 @@
 <p>It is asked to develop a prediction model in such a way that it will be possible for the Marketing Department of a retail company to predict which customers are likely to respond to a marketing campaing based on information from a previous campaign.</p>
 <p>A response model can provide a significant boost to the efficiency of a marketing campaign by increasing responses or reducing expenses.</p>
 
-Based on the evaluation metrics for both training and test sets, it appears that the best-performing model is the one with the following characteristics:
+- Based on the evaluation metrics for both training and test sets, it appears that the best-performing model is the one with the following characteristics:
 
 #### **Model**: Logistic Regression
 ##### **Performance Metrics**
