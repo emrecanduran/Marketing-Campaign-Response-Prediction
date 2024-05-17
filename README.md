@@ -51,7 +51,7 @@
         <p>*The geometric mean (G-Mean), which combines the true positive rate (recall) and the true negative rate (specificity), is 79.2% on the training set and 78.4% on the test set. This shows a balanced performance in identifying both positives and negatives, with only a slight reduction on the test set.*
 
 
-##### **Feature Importance**
+#### **Feature Importance**
 *Top 5 Features*:
 - total_amount_spent
 - total_campaigns_accepted
@@ -62,20 +62,20 @@
 *Significant Features*:
 income_level and marital_status also show notable impacts on the target variable.
 
-##### **Learning Curve**
+#### **Learning Curve**
 
 The Logistic regression model's performance on both training and cross-validation data can be seen in the learning curve plot based on the weighted f1 score. The model performs better on the training set of data at first, but after an unusual start, the cross-validation scores improve slightly by following the same pattern with train scores. The two curves eventually converge at a specific point, signifying consistent performance on unseen data. This convergence shows that the model generalizes well without significant underfitting or overfitting. 
 
-##### **ROC-AUC**
+#### **ROC-AUC**
 ROC AUC of 0.85 for both class 0 and class 1 indicates that the model has good discriminative power for both classes. The micro-average ROC AUC, if also around 0.85, confirms that the model performs well on average across all classes. This is the highest score among the models.
 
 
-##### **Precision-Recall Curve**
+#### **Precision-Recall Curve**
 This is a single-number summary of the precision-recall curve, calculated as the area under the PR curve (AUPRC). An AP of 0.55 means that, on average, the precision across different recall levels is 0.55. An average precision of 0.55 indicates a model with moderate performance in balancing precision and recall. A higher AP score indicates a better balance between precision and recall across all thresholds. AP with 0.55 is the best score among the other models. 
 
 
-##### **Confusion Matrix**
+#### **Confusion Matrix**
 With logistic regression model, we achieved the highest true positive rates(%11.9) and true negative rates(%65.70). Since the Ms. Sarah concerns about TPR(recall) than the other metrics, this model provides better results with respect to business needs. 
 
-##### **Overall Assessment**
+#### **Overall Assessment**
 Tree-based models didn't generalize well in the data with the high difference between train and test scores. The Logistic Regression model demonstrates strong predictive performance with relatively low difference between train and test results, indicating a good generalization. It is achived to have best results possible with the most simplest model and less features. Only 7 features were created from 28 features. The feature importance analysis reveals several key factors influencing the target variable, including total_amount_spent, total_campaign_accepted, and Recency. 
