@@ -192,7 +192,7 @@ ROC AUC of 0.85 for both class 0 and class 1 indicates good discriminative power
 ### Precision-Recall Curve:
 
 <p align="center">
-  <img width="500" height="350" src="figures/Precision-Recall-Curve">
+  <img width="500" height="350" src="figures/Precision-Recall-Curve.png">
 </p>
 
 An average precision (AP) of 0.55 indicates moderate performance in balancing precision and recall across all thresholds.
