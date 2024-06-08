@@ -209,15 +209,6 @@ An average precision (AP) of 0.55 indicates moderate performance in balancing pr
 The Logistic Regression model achieved the highest true positive rates (11.9%) and true negative rates (65.70%). Given the importance of recall (TPR) for business needs, this model performs well in identifying true positives.
 <br>
 
-## 5. Evaluation
-**Objective:** Assess the model to ensure it meets business objectives.
-
-- **Evaluate results:** Check against success criteria.
-- **Review process:** Ensure alignment with goals.
-- **Next steps:** Decide on deployment or further refinement.
-
-**Example:** Compare predictions to actual performance, decide on model deployment.
-
 ### Overall Assessment
 
 Tree-based models did not generalize well, showing high differences between train and test scores. The Logistic Regression model demonstrates strong predictive performance with low differences between train and test results, indicating good generalization. It achieved the best results with the simplest model and fewer features. The feature importance analysis highlights key factors influencing the target variable, including total_amount_spent, total_campaigns_accepted, and Recency.
