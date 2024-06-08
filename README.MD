@@ -102,8 +102,7 @@ import category_encoders as ce
 from sklearn.impute import SimpleImputer
 from sklearn.impute import KNNImputer
 
-# Machine Learning Model
-
+# Model
 from sklearn.linear_model import LogisticRegression
 from yellowbrick.model_selection import RFECV
 
@@ -114,7 +113,7 @@ from yellowbrick.classifier import DiscriminationThreshold, ClassPredictionError
 from sklearn import metrics 
 import statsmodels.api as sm
 
-# Save the model
+# Save the model for deployment
 import pickle
 ```
 
