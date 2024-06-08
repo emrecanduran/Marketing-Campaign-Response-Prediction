@@ -27,7 +27,7 @@ This project aims to develop a prediction model for the Marketing Department of 
 ---
 
 ### Dataset Description   
-<div align="center">
+
 | **Feature**          | **Description**                                                              |
 |----------------------|------------------------------------------------------------------------------|
 | **AcceptedCmp1**     | 1 if customer accepted the offer in the 1st campaign, 0 otherwise            |
@@ -55,7 +55,6 @@ This project aims to develop a prediction model for the Marketing Department of 
 | **NumWebPurchases**  | Number of purchases made through the company’s website                       |
 | **NumWebVisitsMonth**| Number of visits to the company’s website in the last month                  |
 | **Recency**          | Number of days since the last purchase                                       |
-</div>
 
 ## How to run   
 First, install dependencies   
