@@ -7,9 +7,9 @@
 
 **CRISP-DM Methodology**
 
-- Business Understanding
-- Data Understanding
-- Data Preparation
+- Business understanding
+- Data understanding
+- Data preparation
 - Modeling
 - Evaluation
 
