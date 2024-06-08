@@ -55,6 +55,7 @@ This project aims to develop a prediction model for the Marketing Department of 
 | **NumWebVisitsMonth**| Number of visits to the company’s website in the last month                  |
 | **Recency**          | Number of days since the last purchase                                       |
 </div>
+
 ## Imports
 This project has following libraries:
 ```python
