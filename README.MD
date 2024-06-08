@@ -109,12 +109,14 @@ scikit-learn version: 1.3.2
 
 **Train and Test Results:**
 ```
-- **Accuracy:** Training set - 79.2%, Test set - 77.6%.
-- **Precision:** Training set - 79.1%, Test set - 38.2%.
-- **Recall:** Training and Test sets - 79.5%.
-- **F1-score:** Training set - 79.3%, Test set - 51.6%.
-- **Specificity:** Training set - 79.0%, Test set - 77.3%.
-- **G-Mean:** Training set - 79.2%, Test set - 78.4%.
+| Metric       | Training Set | Test Set   |
+|--------------|--------------|------------|
+| Accuracy     | 79.2%        | 77.6%      |
+| Precision    | 79.1%        | 38.2%      |
+| Recall       | 79.5%        | 79.5%      |
+| F1-score     | 79.3%        | 51.6%      |
+| Specificity  | 79.0%        | 77.3%      |
+| G-Mean       | 79.2%        | 78.4%      |
 ``` 
 ### Feature Importance
 
