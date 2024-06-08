@@ -1,5 +1,4 @@
-### CRISP-DM project seed
-Use this seed to start new deep learning / ML projects.
+### Marketing Campaign Response Prediction project 
 
 - Built in setup.py
 - Built in requirements
