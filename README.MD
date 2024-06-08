@@ -1,4 +1,4 @@
-### Deep learning project seed
+### CRISP-DM project seed
 Use this seed to start new deep learning / ML projects.
 
 - Built in setup.py
