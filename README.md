@@ -182,6 +182,10 @@ The learning curve shows the Logistic Regression model's performance on both tra
 
 ### ROC-AUC
 
+<p align="center">
+  <img width="500" height="350" src="figures/Learning_curve.png">
+</p>
+
 ROC AUC of 0.85 for both class 0 and class 1 indicates good discriminative power. The micro-average ROC AUC confirms that the model performs well on average across all classes.
 <br>
 
