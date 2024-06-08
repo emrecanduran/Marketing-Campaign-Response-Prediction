@@ -7,7 +7,7 @@
 
 <div align="center">
   <img src="https://example.com/your-image.png" alt="CRISP-DM cycle" style="border-radius: 50%;">
-  <h3>CRISP-DM Methodology</h3>
+  <h2>CRISP-DM Methodology</h2>
 </div>
 
 - Business understanding
