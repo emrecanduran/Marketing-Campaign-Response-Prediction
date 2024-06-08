@@ -14,7 +14,7 @@
 - **Data mining goals:** Translate objectives into data mining goals.
 - **Project plan:** Outline steps and timeline.
 
-#### 2. Data Understanding
+### 2. Data Understanding
 **Objective:** Gather and explore the data.
 
 - **Collect data:** Acquire relevant data.
@@ -22,7 +22,7 @@
 - **Explore data:** Identify patterns and relationships.
 - **Verify quality:** Address missing values and inconsistencies.
 
-#### 3. Data Preparation
+### 3. Data Preparation
 **Objective:** Prepare the final dataset for modeling.
 
 - **Select data:** Choose relevant data.
@@ -31,7 +31,7 @@
 - **Integrate data:** Combine data from different sources.
 - **Format data:** Normalize or scale features.
 
-#### 4. Modeling
+### 4. Modeling
 **Objective:** Apply Logistic Regression and evaluate its performance.
 
 - **Select techniques:** Logistic Regression.
@@ -39,7 +39,7 @@
 - **Build models:** Train the Logistic Regression model.
 - **Assess models:** Evaluate performance metrics.
 
-## 5. Evaluation
+### 5. Evaluation
 **Objective:** Assess the models to ensure they meet objectives.
 
 - **Evaluate results:** Check against success criteria.
