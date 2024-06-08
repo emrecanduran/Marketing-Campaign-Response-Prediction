@@ -30,35 +30,6 @@
 | **NumWebVisitsMonth**| Number of visits to the company’s website in the last month                  |
 | **Recency**          | Number of days since the last purchase                                       |
 
-| **Feature**       | **Description**                                          |
-|-------------------|----------------------------------------------------------|
-| **AcceptedCmp1** | 1 if accepted offer in 1st campaign, 0 otherwise         |
-| **AcceptedCmp2** | 1 if accepted offer in 2nd campaign, 0 otherwise         |
-| **AcceptedCmp3** | 1 if accepted offer in 3rd campaign, 0 otherwise         |
-| **AcceptedCmp4** | 1 if accepted offer in 4th campaign, 0 otherwise         |
-| **AcceptedCmp5** | 1 if accepted offer in 5th campaign, 0 otherwise         |
-| **Response**      | 1 if accepted offer in last campaign, 0 otherwise        |
-| **Complain**      | 1 if complained in last 2 years                          |
-| **DtCustomer**    | Date of enrollment with the company                      |
-| **Education**     | Customer’s level of education                            |
-| **Marital**       | Customer’s marital status                                |
-| **Kidhome**       | Number of small children in household                    |
-| **Teenhome**      | Number of teenagers in household                         |
-| **Income**        | Yearly household income                                  |
-| **MntFish**       | Amount spent on fish products in last 2 years            |
-| **MntMeat**       | Amount spent on meat products in last 2 years            |
-| **MntFruits**     | Amount spent on fruit products in last 2 years           |
-| **MntSweet**      | Amount spent on sweet products in last 2 years           |
-| **MntWines**      | Amount spent on wine products in last 2 years            |
-| **MntGold**       | Amount spent on gold products in last 2 years            |
-| **NumDeals**      | Number of purchases made with discount                   |
-| **NumCatalog**    | Number of purchases made using a catalog                 |
-| **NumStore**      | Number of purchases made directly in stores             |
-| **NumWeb**        | Number of purchases made through company’s website       |
-| **NumWebVisits**  | Number of visits to company’s website in last month      |
-| **Recency**       | Number of days since last purchase                       |
-
-
 ### Overview
 <p>It is asked to develop a prediction model in such a way that it will be possible for the Marketing Department of a retail company to predict which customers are likely to respond to a marketing campaing based on information from a previous campaign.</p>
 <p>A response model can provide a significant boost to the efficiency of a marketing campaign by increasing responses or reducing expenses.</p>
