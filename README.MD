@@ -6,7 +6,7 @@
 
 
 <div align="center">
-  <img src="https://example.com/your-image.png" alt="CRISP-DM cycle" style="border-radius: 50%;">
+  <img src="https://drive.google.com/file/d/1d0xjV7vIk3ilSdKVsehrzu8XpUCbP23-/view?usp=share_link" alt="CRISP-DM cycle" style="border-radius: 50%;">
   <h2>CRISP-DM Methodology</h2>
 </div>
 
