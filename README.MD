@@ -14,8 +14,6 @@
 - **Data mining goals:** Translate objectives into data mining goals.
 - **Project plan:** Outline steps and timeline.
 
-**Example:** Goal to predict student performance based on study habits.
-
 ## 2. Data Understanding
 **Objective:** Gather and explore the data.
 
@@ -23,8 +21,6 @@
 - **Describe data:** Examine structure and quantity.
 - **Explore data:** Identify patterns and relationships.
 - **Verify quality:** Address missing values and inconsistencies.
-
-**Example:** Collect data on study hours, grades, and attendance.
 
 ## 3. Data Preparation
 **Objective:** Prepare the final dataset for modeling.
@@ -35,8 +31,6 @@
 - **Integrate data:** Combine data from different sources.
 - **Format data:** Normalize or scale features.
 
-**Example:** Clean study hours data, create average study time per week.
-
 ## 4. Modeling
 **Objective:** Apply Logistic Regression and evaluate its performance.
 
@@ -44,8 +38,6 @@
 - **Test design:** Use train-test split.
 - **Build models:** Train the Logistic Regression model.
 - **Assess models:** Evaluate performance metrics.
-
-**Example:** Use Logistic Regression to predict performance.
 
 ### Goals  
 This project aims to develop a prediction model for the Marketing Department of a retail company to predict which customers are likely to respond to a marketing campaign based on information from a previous campaign. A response model can significantly enhance the efficiency of a marketing campaign by increasing responses or reducing expenses. Product manager Sarah striving to optimize the company marketing campaigns. With a keen eye on metrics like recall(>0.75) and F1 score, Sarah ensures their campaigns reach a broad audience (recall) while maintaining precision in targeting (F1 score > 0.5).
