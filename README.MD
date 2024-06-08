@@ -6,45 +6,21 @@
 
 ## CRISP-DM Methodology
 
-### 1. Business Understanding
-**Objective:** Define project goals and requirements from a business perspective.
+The CRISP-DM, even today, remains as a dependable method to develop data science solutions for enterprise problems. Its BI-first approach also enables better sourcing of insights and other such data knowledge.
 
-- **Identify objectives:** Determine the primary goal.
-- **Assess situation:** Review resources and constraints.
-- **Data mining goals:** Translate objectives into data mining goals.
-- **Project plan:** Outline steps and timeline.
+The flexible and iterative approach of the CRISP-DM also makes it a future-proof alternative for anyone looking to solve data science problems. Even as it is important to develop a unique method, it should also be kept in mind that using methods such as CRISP-DM bring an element of professionalism and uniformity to operational procedures.
 
-### 2. Data Understanding
-**Objective:** Gather and explore the data.
+<p align="center">
+  <img width="500" height="500" src="CRISP-DM.png">
+</p>
+Summary:
 
-- **Collect data:** Acquire relevant data.
-- **Describe data:** Examine structure and quantity.
-- **Explore data:** Identify patterns and relationships.
-- **Verify quality:** Address missing values and inconsistencies.
-
-### 3. Data Preparation
-**Objective:** Prepare the final dataset for modeling.
-
-- **Select data:** Choose relevant data.
-- **Clean data:** Handle missing values and outliers.
-- **Construct data:** Create new features if needed.
-- **Integrate data:** Combine data from different sources.
-- **Format data:** Normalize or scale features.
-
-### 4. Modeling
-**Objective:** Apply Logistic Regression and evaluate its performance.
-
-- **Select techniques:** Logistic Regression.
-- **Test design:** Use train-test split.
-- **Build models:** Train the Logistic Regression model.
-- **Assess models:** Evaluate performance metrics.
-
-### 5. Evaluation
-**Objective:** Assess the models to ensure they meet objectives.
-
-- **Evaluate results:** Check against success criteria.
-- **Review process:** Ensure alignment with goals.
-- **Next steps:** Decide on deployment or further refinement.
+*    Business Understanding: determine business objectives; assess situation; determine data mining goals; produce project plan
+*    Data Understanding: collect initial data; describe data; explore data; verify data quality
+*    Data Preparation (generally, the most time-consuming phase): select data; clean data; construct data; integrate data; format data
+*    Modeling: select modeling technique; generate test design; build model; assess model
+*    Evaluation: evaluate results; review process; determine next steps
+*    Deployment: plan deployment; plan monitoring and maintenance; produce final report; review project
 
 ### Goals  
 This project aims to develop a prediction model for the Marketing Department of a retail company to predict which customers are likely to respond to a marketing campaign based on information from a previous campaign. A response model can significantly enhance the efficiency of a marketing campaign by increasing responses or reducing expenses. Product manager Sarah striving to optimize the company marketing campaigns. With a keen eye on metrics like recall(>0.75) and F1 score, Sarah ensures their campaigns reach a broad audience (recall) while maintaining precision in targeting (F1 score > 0.5).
