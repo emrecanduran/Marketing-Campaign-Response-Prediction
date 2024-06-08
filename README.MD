@@ -4,9 +4,9 @@
 
 </div>
 
-### CRISP-DM Methodology
+## CRISP-DM Methodology
 
-#### 1. Business Understanding
+### 1. Business Understanding
 **Objective:** Define project goals and requirements from a business perspective.
 
 - **Identify objectives:** Determine the primary goal.
