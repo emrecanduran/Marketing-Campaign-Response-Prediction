@@ -69,7 +69,7 @@ python lit_classifier_main.py
 ```
 
 ## Imports
-This project is setup as a package which means you can now easily import any file into any other file like so:
+This project has following libraries:
 ```python
 
 # Data Manipulation and Analysis
@@ -109,12 +109,11 @@ import statsmodels.api as sm
 import pickle
 ```
 
-### Citation   
+### Versions   
 ```
-@article{YourName,
-  title={Your Title},
-  author={Your team},
-  journal={Location},
-  year={Year}
-}
+pandas version: 2.1.4
+numpy version: 1.23.5
+matplotlib version: 3.8.0
+seaborn version: 0.13.2
+scikit-learn version: 1.3.2
 ```   
