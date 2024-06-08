@@ -119,14 +119,15 @@ scikit-learn version: 1.3.2
 
 ### Feature Importance
 
-Top 5 Features:
-1. total_amount_spent
-2. total_campaigns_accepted
-3. NumWebVisitsMonth
-4. Recency
-5. family_size
-
-Significant features also include income_level and marital_status.
+| Feature                   | Coefficient |
+|---------------------------|-------------|
+| total_amount_spent       | 4.608256    |
+| total_campaigns_accepted | 3.859582    |
+| NumWebVisitsMonth        | 3.167518    |
+| Recency                  | 3.036887    |
+| family_size              | 2.903364    |
+| income_level             | 1.880346    |
+| marital_status           | 1.698048    |
 
 ### Learning Curve
 
