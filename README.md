@@ -12,7 +12,7 @@ CRISP-DM is like our roadmap for exploring and understanding data. It breaks dow
   <img width="500" height="500" src="figures/CRISP-DM.png">
 </p>
 
-*    Business Understanding: determine business objectives; assess situation; determine data mining goals; produce project plan
+*    **Business Understanding**: determine business objectives; assess situation; determine data mining goals; produce project plan
 *    Data Understanding: collect initial data; describe data; explore data; verify data quality
 *    Data Preparation (generally, the most time-consuming phase): select data; clean data; construct data; integrate data; format data
 *    Modeling: select modeling technique; generate test design; build model; assess model
