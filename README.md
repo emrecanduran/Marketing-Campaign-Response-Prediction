@@ -148,6 +148,15 @@ The geometric mean (G-Mean), which combines the true positive rate (recall) and 
 | income_level             | 1.880346    |
 | marital_status           | 1.698048    |
 
+*Top 5 Features*:
+
+total_amount_spent
+total_campaigns_accepted
+NumWebVisitsMonth
+Recency
+family_size
+Significant Features: income_level and marital_status also show notable impacts on the target variable.
+
 ### Learning Curve
 
 The learning curve shows the Logistic Regression model's performance on both training and cross-validation data, with convergence indicating consistent performance on unseen data, suggesting good generalization without significant underfitting or overfitting.
