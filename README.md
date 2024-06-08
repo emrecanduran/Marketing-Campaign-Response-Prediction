@@ -117,8 +117,6 @@ scikit-learn version: 1.3.2
 | Specificity  | 79.0%        | 77.3%      |
 | G-Mean       | 79.2%        | 78.4%      |
 
-
-
 **Accuracy**:
 The model's accuracy on the training set is 79.2%, while on the test set, it is slightly lower at 77.6%. This indicates that the model performs fairly consistently across both datasets, with a slight drop in the test set, which is expected.
 
@@ -159,7 +157,7 @@ The geometric mean (G-Mean), which combines the true positive rate (recall) and 
 
 Significant Features: income_level and marital_status also show notable impacts on the target variable.
 
-### Learning Curve
+#### Learning Curve:
 
 The learning curve shows the Logistic Regression model's performance on both training and cross-validation data, with convergence indicating consistent performance on unseen data, suggesting good generalization without significant underfitting or overfitting.
 
