@@ -11,7 +11,6 @@ CRISP-DM is like our roadmap for exploring and understanding data. It breaks dow
 <p align="center">
   <img width="500" height="500" src="figures/CRISP-DM.png">
 </p>
-Summary:
 
 *    Business Understanding: determine business objectives; assess situation; determine data mining goals; produce project plan
 *    Data Understanding: collect initial data; describe data; explore data; verify data quality
