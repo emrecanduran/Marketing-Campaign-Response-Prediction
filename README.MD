@@ -6,11 +6,58 @@
 
 ### CRISP-DM Methodology
 
-- Business understanding
-- Data understanding
-- Data preparation
-- Modeling
-- Evaluation
+## 1. Business Understanding
+**Objective:** To understand the project objectives and requirements from a business perspective and then convert this knowledge into a data mining problem definition and a preliminary plan.
+
+- **Identify business objectives:** Define the primary goal of the project from the business perspective.
+- **Assess situation:** Inventory of resources, constraints, assumptions, and other factors.
+- **Determine data mining goals:** Translate business objectives into data mining goals.
+- **Produce project plan:** Outline the steps and timeline to achieve the goals.
+
+**Example:** For a retail company, the business objective might be to increase sales. A corresponding data mining goal could be to develop a model that predicts which products customers are likely to purchase.
+
+## 2. Data Understanding
+**Objective:** To collect, describe, and explore the data to gain insights and identify data quality issues.
+
+- **Collect initial data:** Acquire the data listed in the project resources.
+- **Describe data:** Examine the data's surface properties, such as structure, format, and quantity.
+- **Explore data:** Perform exploratory data analysis (EDA) to identify patterns, trends, and relationships.
+- **Verify data quality:** Assess data quality and address any issues such as missing values, outliers, or inconsistencies.
+
+**Example:** For the retail company, this phase would involve collecting sales data, customer demographics, and transaction histories, then analyzing this data to identify patterns and anomalies.
+
+## 3. Data Preparation
+**Objective:** To construct the final dataset from the initial raw data for modeling.
+
+- **Select data:** Choose the data relevant to the problem.
+- **Clean data:** Handle missing values, noise, and outliers.
+- **Construct data:** Derive new attributes, such as aggregating data or generating new features.
+- **Integrate data:** Combine data from different sources if necessary.
+- **Format data:** Reformat data for modeling, such as normalizing or scaling features.
+
+**Example:** The retail company might clean the data by filling in missing values for customer demographics, create new features like total spending, and normalize the transaction amounts.
+
+## 4. Modeling
+**Objective:** To select and apply various modeling techniques and calibrate their parameters to optimal values.
+
+- **Select modeling techniques:** Choose appropriate algorithms for the problem (e.g., decision trees, neural networks).
+- **Generate test design:** Decide on the train-test split or cross-validation method.
+- **Build models:** Train the models using the prepared data.
+- **Assess models:** Evaluate models based on accuracy, precision, recall, etc.
+
+**Example:** The retail company could try different models, such as logistic regression or random forests, to predict customer purchases, and evaluate these models using cross-validation.
+
+## 5. Evaluation
+**Objective:** To thoroughly evaluate the model(s) to ensure they meet the business objectives.
+
+- **Evaluate results:** Assess the models against the business success criteria.
+- **Review process:** Review the steps executed to ensure they align with the business objectives.
+- **Determine next steps:** Decide whether to deploy the model, iterate with more data, or explore alternative models.
+
+**Example:** The retail company would compare the model predictions with actual sales data to determine accuracy and decide whether the model's predictions are useful for increasing sales. If the model performs well, it might be deployed in the business operations; otherwise, further refinement may be needed.
+
+## Summary
+These phases ensure a structured approach to data science projects, aligning technical work with business goals and systematically transforming raw data into actionable insights and predictions. This methodology promotes a clear, repeatable process, increasing the likelihood of successful outcomes.
 
 ### Goals  
 This project aims to develop a prediction model for the Marketing Department of a retail company to predict which customers are likely to respond to a marketing campaign based on information from a previous campaign. A response model can significantly enhance the efficiency of a marketing campaign by increasing responses or reducing expenses. Product manager Sarah striving to optimize the company marketing campaigns. With a keen eye on metrics like recall(>0.75) and F1 score, Sarah ensures their campaigns reach a broad audience (recall) while maintaining precision in targeting (F1 score > 0.5).
