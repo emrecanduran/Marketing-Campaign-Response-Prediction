@@ -4,11 +4,9 @@
 
 </div>
 
-## CRISP-DM Methodology
+### CRISP-DM Methodology
 
-The CRISP-DM, even today, remains as a dependable method to develop data science solutions for enterprise problems. Its BI-first approach also enables better sourcing of insights and other such data knowledge.
-
-The flexible and iterative approach of the CRISP-DM also makes it a future-proof alternative for anyone looking to solve data science problems. Even as it is important to develop a unique method, it should also be kept in mind that using methods such as CRISP-DM bring an element of professionalism and uniformity to operational procedures.
+CRISP-DM is like our roadmap for exploring and understanding data. It breaks down complex data projects into manageable steps, starting from understanding what the business needs are, all the way to deploying our solutions. It's super helpful because it keeps us organized and ensures we're on track with our goals. Plus, it's not just for one specific industry, so we can apply it to all sorts of projects, which is awesome for learning and building our skills. It's basically our guide to navigating the world of data mining!
 
 <p align="center">
   <img width="500" height="500" src="figures/CRISP-DM.png">
@@ -20,7 +18,7 @@ Summary:
 *    Data Preparation (generally, the most time-consuming phase): select data; clean data; construct data; integrate data; format data
 *    Modeling: select modeling technique; generate test design; build model; assess model
 *    Evaluation: evaluate results; review process; determine next steps
-*    Deployment: plan deployment; plan monitoring and maintenance; produce final report; review project
+*    Deployment: plan deployment; plan monitoring and maintenance; produce final report; review project (deployment was not required for this project)
 
 ### Goals  
 This project aims to develop a prediction model for the Marketing Department of a retail company to predict which customers are likely to respond to a marketing campaign based on information from a previous campaign. A response model can significantly enhance the efficiency of a marketing campaign by increasing responses or reducing expenses. Product manager Sarah striving to optimize the company marketing campaigns. With a keen eye on metrics like recall(>0.75) and F1 score, Sarah ensures their campaigns reach a broad audience (recall) while maintaining precision in targeting (F1 score > 0.5).
