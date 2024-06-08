@@ -174,7 +174,7 @@ The geometric mean (G-Mean), which combines the true positive rate (recall) and 
 ### Learning Curve:
 
 <p align="center">
-  <img width="500" height="350" src="figures/Learning_Curve.png">
+  <img width="500" height="350" src="figures/Learning-Curve.png">
 </p>
 
 The learning curve shows the Logistic Regression model's performance on both training and cross-validation data, with convergence indicating consistent performance on unseen data, suggesting good generalization without significant underfitting or overfitting.
