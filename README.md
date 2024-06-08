@@ -2,33 +2,34 @@
 
 ### Dataset description
 
-| Feature             | Description                                                                  |
-|---------------------|------------------------------------------------------------------------------|
-| AcceptedCmp1        | 1 if customer accepted the offer in the 1st campaign, 0 otherwise            |
-| AcceptedCmp2        | 1 if customer accepted the offer in the 2nd campaign, 0 otherwise            |
-| AcceptedCmp3        | 1 if customer accepted the offer in the 3rd campaign, 0 otherwise            |
-| AcceptedCmp4        | 1 if customer accepted the offer in the 4th campaign, 0 otherwise            |
-| AcceptedCmp5        | 1 if customer accepted the offer in the 5th campaign, 0 otherwise            |
-| Response (target)   | 1 if customer accepted the offer in the last campaign, 0 otherwise          |
-| Complain            | 1 if customer complained in the last 2 years                                 |
-| DtCustomer          | date of customer’s enrollment with the company                               |
-| Education           | customer’s level of education                                                |
-| Marital             | customer’s marital status                                                    |
-| Kidhome             | number of small children in customer’s household                             |
-| Teenhome            | number of teenagers in customer’s household                                  |
-| Income              | customer’s yearly household income                                           |
-| MntFishProducts     | amount spent on fish products in the last 2 years                            |
-| MntMeatProducts     | amount spent on meat products in the last 2 years                            |
-| MntFruits           | amount spent on fruit products in the last 2 years                           |
-| MntSweetProducts    | amount spent on sweet products in the last 2 years                           |
-| MntWines            | amount spent on wine products in the last 2 years                            |
-| MntGoldProds        | amount spent on gold products in the last 2 years                            |
-| NumDealsPurchases   | number of purchases made with discount                                      |
-| NumCatalogPurchases | number of purchases made using a catalog                                     |
-| NumStorePurchases   | number of purchases made directly in stores                                 |
-| NumWebPurchases     | number of purchases made through the company’s website                       |
-| NumWebVisitsMonth   | number of visits to the company’s website in the last month                  |
-| Recency             | number of days since the last purchase                                       |
+| Feature             | Description                                                                |
+|---------------------|----------------------------------------------------------------------------|
+| AcceptedCmp1        | 1 if customer accepted the offer in the 1st campaign, 0 otherwise          |
+| AcceptedCmp2        | 1 if customer accepted the offer in the 2nd campaign, 0 otherwise          |
+| AcceptedCmp3        | 1 if customer accepted the offer in the 3rd campaign, 0 otherwise          |
+| AcceptedCmp4        | 1 if customer accepted the offer in the 4th campaign, 0 otherwise          |
+| AcceptedCmp5        | 1 if customer accepted the offer in the 5th campaign, 0 otherwise          |
+| Response (target)   | 1 if customer accepted the offer in the last campaign, 0 otherwise        |
+| Complain            | 1 if customer complained in the last 2 years                               |
+| DtCustomer          | Date of customer’s enrollment with the company                             |
+| Education           | Customer’s level of education                                              |
+| Marital             | Customer’s marital status                                                  |
+| Kidhome             | Number of small children in customer’s household                           |
+| Teenhome            | Number of teenagers in customer’s household                                |
+| Income              | Customer’s yearly household income                                         |
+| MntFishProducts     | Amount spent on fish products in the last 2 years                          |
+| MntMeatProducts     | Amount spent on meat products in the last 2 years                          |
+| MntFruits           | Amount spent on fruit products in the last 2 years                         |
+| MntSweetProducts    | Amount spent on sweet products in the last 2 years                         |
+| MntWines            | Amount spent on wine products in the last 2 years                          |
+| MntGoldProds        | Amount spent on gold products in the last 2 years                          |
+| NumDealsPurchases   | Number of purchases made with discount                                     |
+| NumCatalogPurchases | Number of purchases made using a catalog                                   |
+| NumStorePurchases   | Number of purchases made directly in stores                               |
+| NumWebPurchases     | Number of purchases made through the company’s website                     |
+| NumWebVisitsMonth   | Number of visits to the company’s website in the last month                |
+| Recency             | Number of days since the last purchase                                     |
+
 
 
 - **`AcceptedCmp1`** - 1 if customer accepted the offer in the 1st campaign, 0 otherwise 
