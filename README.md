@@ -150,11 +150,12 @@ The geometric mean (G-Mean), which combines the true positive rate (recall) and 
 
 *Top 5 Features*:
 
-total_amount_spent
-total_campaigns_accepted
-NumWebVisitsMonth
-Recency
-family_size
+1. total_amount_spent
+2. total_campaigns_accepted
+3. NumWebVisitsMonth
+4. Recency
+5. family_size
+
 Significant Features: income_level and marital_status also show notable impacts on the target variable.
 
 ### Learning Curve
