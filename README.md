@@ -120,7 +120,7 @@ scikit-learn version: 1.3.2
 **Accuracy**:
 The model's accuracy on the training set is 79.2%, while on the test set, it is slightly lower at 77.6%. This indicates that the model performs fairly consistently across both datasets, with a slight drop in the test set, which is expected.
 
-<p align="center">Accuracy = (TP + TN) / (TP + TN + FP + FN)</p>
+*<p align="center">Accuracy = (TP + TN) / (TP + TN + FP + FN)</p>*
 
 **Precision**:
 Precision drops significantly from 79.1% on the training set to 38.2% on the test set. This suggests that the model is much better at correctly identifying positive instances on the training set than on the test set.
