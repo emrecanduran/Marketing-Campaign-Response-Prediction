@@ -200,7 +200,7 @@ ROC AUC of 0.85 for both class 0 and class 1 indicates good discriminative power
 An average precision (AP) of 0.55 indicates moderate performance in balancing precision and recall across all thresholds.
 <br>
 
-### Confusion Matrix
+### Confusion Matrix:
 
 <p align="center">
   <img width="500" height="350" src="figures/Confusion-Matrix.png">
