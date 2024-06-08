@@ -6,7 +6,7 @@
 
 ### CRISP-DM Methodology
 
-## 1. Business Understanding
+#### 1. Business Understanding
 **Objective:** To understand the project objectives and requirements from a business perspective and then convert this knowledge into a data mining problem definition and a preliminary plan.
 
 - **Identify business objectives:** Define the primary goal of the project from the business perspective.
@@ -16,7 +16,7 @@
 
 **Example:** For a retail company, the business objective might be to increase sales. A corresponding data mining goal could be to develop a model that predicts which products customers are likely to purchase.
 
-## 2. Data Understanding
+#### 2. Data Understanding
 **Objective:** To collect, describe, and explore the data to gain insights and identify data quality issues.
 
 - **Collect initial data:** Acquire the data listed in the project resources.
@@ -26,7 +26,7 @@
 
 **Example:** For the retail company, this phase would involve collecting sales data, customer demographics, and transaction histories, then analyzing this data to identify patterns and anomalies.
 
-## 3. Data Preparation
+#### 3. Data Preparation
 **Objective:** To construct the final dataset from the initial raw data for modeling.
 
 - **Select data:** Choose the data relevant to the problem.
@@ -37,7 +37,7 @@
 
 **Example:** The retail company might clean the data by filling in missing values for customer demographics, create new features like total spending, and normalize the transaction amounts.
 
-## 4. Modeling
+#### 4. Modeling
 **Objective:** To select and apply various modeling techniques and calibrate their parameters to optimal values.
 
 - **Select modeling techniques:** Choose appropriate algorithms for the problem (e.g., decision trees, neural networks).
@@ -47,7 +47,7 @@
 
 **Example:** The retail company could try different models, such as logistic regression or random forests, to predict customer purchases, and evaluate these models using cross-validation.
 
-## 5. Evaluation
+#### 5. Evaluation
 **Objective:** To thoroughly evaluate the model(s) to ensure they meet the business objectives.
 
 - **Evaluate results:** Assess the models against the business success criteria.
@@ -56,7 +56,7 @@
 
 **Example:** The retail company would compare the model predictions with actual sales data to determine accuracy and decide whether the model's predictions are useful for increasing sales. If the model performs well, it might be deployed in the business operations; otherwise, further refinement may be needed.
 
-## Summary
+#### Summary
 These phases ensure a structured approach to data science projects, aligning technical work with business goals and systematically transforming raw data into actionable insights and predictions. This methodology promotes a clear, repeatable process, increasing the likelihood of successful outcomes.
 
 ### Goals  
