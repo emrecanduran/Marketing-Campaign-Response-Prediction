@@ -118,6 +118,7 @@ scikit-learn version: 1.3.2
 | G-Mean       | 79.2%        | 78.4%      |
 
 
+
 **Accuracy**:
 The model's accuracy on the training set is 79.2%, while on the test set, it is slightly lower at 77.6%. This indicates that the model performs fairly consistently across both datasets, with a slight drop in the test set, which is expected.
 
