@@ -5,7 +5,10 @@
 </div>
 
 
-### CRISP-DM Methodology
+<div align="center">
+  <img src="https://example.com/your-image.png" alt="CRISP-DM cycle" style="border-radius: 50%;">
+  <h1>CRISP-DM Methodology</h1>
+</div>
 
 - Business understanding
 - Data understanding
