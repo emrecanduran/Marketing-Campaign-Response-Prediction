@@ -4,7 +4,7 @@
 
 </div>
 
-### CRISP-DM Methodology
+## CRISP-DM Methodology
 
 CRISP-DM is like our roadmap for exploring and understanding data. It breaks down complex data projects into manageable steps, starting from understanding what the business needs are, all the way to deploying our solutions. It's super helpful because it keeps us organized and ensures we're on track with our goals. Plus, it's not just for one specific industry, so we can apply it to all sorts of projects, which is awesome for learning and building our skills. It's basically our guide to navigating the world of data mining!
 
@@ -20,12 +20,12 @@ CRISP-DM is like our roadmap for exploring and understanding data. It breaks dow
 *    **Deployment**: plan deployment; plan monitoring and maintenance; produce final report; review project (deployment was not required for this project)
 ---
 
-### Objective  
+## Objective  
 This project aims to develop a prediction model for the Marketing Department of a retail company to predict which customers are likely to respond to a marketing campaign based on information from a previous campaign. A response model can significantly enhance the efficiency of a marketing campaign by increasing responses or reducing expenses. Product manager Sarah striving to optimize the company marketing campaigns. With a keen eye on metrics like recall(>0.75) and F1 score, Sarah ensures their campaigns reach a broad audience (recall) while maintaining precision in targeting (F1 score > 0.5).
 
 ---
 
-### Dataset Description   
+## Dataset Description   
 
 | **Feature**          | **Description**                                                              |
 |----------------------|------------------------------------------------------------------------------|
@@ -55,7 +55,7 @@ This project aims to develop a prediction model for the Marketing Department of 
 | **NumWebVisitsMonth**| Number of visits to the company’s website in the last month                  |
 | **Recency**          | Number of days since the last purchase                                       |
 
-## Imports
+### Imports
 This project has following libraries:
 ```python
 
@@ -104,9 +104,9 @@ seaborn version: 0.13.2
 scikit-learn version: 1.3.2
 ```   
 
-### Model Evaluation
+## Model Evaluation
 
-#### Train and Test Results:
+### Train and Test Results:
 
 | Metric       | Training Set | Test Set   |
 |--------------|--------------|------------|
@@ -135,7 +135,7 @@ Specificity, or the ability to correctly identify negative instances, is 79.0% o
 **G-mean**:
 The geometric mean (G-Mean), which combines the true positive rate (recall) and the true negative rate (specificity), is 79.2% on the training set and 78.4% on the test set. This shows a balanced performance in identifying both positives and negatives, with only a slight reduction on the test set.
 
-#### Feature Importance:
+### Feature Importance:
 
 | Feature                   | Coefficient |
 |---------------------------|-------------|
@@ -157,7 +157,7 @@ The geometric mean (G-Mean), which combines the true positive rate (recall) and 
 
 Significant Features: income_level and marital_status also show notable impacts on the target variable.
 
-#### Learning Curve:
+### Learning Curve:
 
 The learning curve shows the Logistic Regression model's performance on both training and cross-validation data, with convergence indicating consistent performance on unseen data, suggesting good generalization without significant underfitting or overfitting.
 
