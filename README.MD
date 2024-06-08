@@ -6,58 +6,60 @@
 
 ### CRISP-DM Methodology
 
-#### 1. Business Understanding
-**Objective:** To understand the project objectives and requirements from a business perspective and then convert this knowledge into a data mining problem definition and a preliminary plan.
+# CRISP-DM for Student Project
 
-- **Identify business objectives:** Define the primary goal of the project from the business perspective.
-- **Assess situation:** Inventory of resources, constraints, assumptions, and other factors.
-- **Determine data mining goals:** Translate business objectives into data mining goals.
-- **Produce project plan:** Outline the steps and timeline to achieve the goals.
+## 1. Business Understanding
+**Objective:** Define project goals and requirements from a business perspective.
 
-**Example:** For a retail company, the business objective might be to increase sales. A corresponding data mining goal could be to develop a model that predicts which products customers are likely to purchase.
+- **Identify objectives:** Determine the primary goal.
+- **Assess situation:** Review resources and constraints.
+- **Data mining goals:** Translate objectives into data mining goals.
+- **Project plan:** Outline steps and timeline.
 
-#### 2. Data Understanding
-**Objective:** To collect, describe, and explore the data to gain insights and identify data quality issues.
+**Example:** Goal to predict student performance based on study habits.
 
-- **Collect initial data:** Acquire the data listed in the project resources.
-- **Describe data:** Examine the data's surface properties, such as structure, format, and quantity.
-- **Explore data:** Perform exploratory data analysis (EDA) to identify patterns, trends, and relationships.
-- **Verify data quality:** Assess data quality and address any issues such as missing values, outliers, or inconsistencies.
+## 2. Data Understanding
+**Objective:** Gather and explore the data.
 
-**Example:** For the retail company, this phase would involve collecting sales data, customer demographics, and transaction histories, then analyzing this data to identify patterns and anomalies.
+- **Collect data:** Acquire relevant data.
+- **Describe data:** Examine structure and quantity.
+- **Explore data:** Identify patterns and relationships.
+- **Verify quality:** Address missing values and inconsistencies.
 
-#### 3. Data Preparation
-**Objective:** To construct the final dataset from the initial raw data for modeling.
+**Example:** Collect data on study hours, grades, and attendance.
 
-- **Select data:** Choose the data relevant to the problem.
-- **Clean data:** Handle missing values, noise, and outliers.
-- **Construct data:** Derive new attributes, such as aggregating data or generating new features.
-- **Integrate data:** Combine data from different sources if necessary.
-- **Format data:** Reformat data for modeling, such as normalizing or scaling features.
+## 3. Data Preparation
+**Objective:** Prepare the final dataset for modeling.
 
-**Example:** The retail company might clean the data by filling in missing values for customer demographics, create new features like total spending, and normalize the transaction amounts.
+- **Select data:** Choose relevant data.
+- **Clean data:** Handle missing values and outliers.
+- **Construct data:** Create new features if needed.
+- **Integrate data:** Combine data from different sources.
+- **Format data:** Normalize or scale features.
 
-#### 4. Modeling
-**Objective:** To select and apply various modeling techniques and calibrate their parameters to optimal values.
+**Example:** Clean study hours data, create average study time per week.
 
-- **Select modeling techniques:** Choose appropriate algorithms for the problem (e.g., decision trees, neural networks).
-- **Generate test design:** Decide on the train-test split or cross-validation method.
-- **Build models:** Train the models using the prepared data.
-- **Assess models:** Evaluate models based on accuracy, precision, recall, etc.
+## 4. Modeling
+**Objective:** Apply modeling techniques and fine-tune parameters.
 
-**Example:** The retail company could try different models, such as logistic regression or random forests, to predict customer purchases, and evaluate these models using cross-validation.
+- **Select techniques:** Choose algorithms (e.g., decision trees).
+- **Test design:** Decide on train-test split or cross-validation.
+- **Build models:** Train the models.
+- **Assess models:** Evaluate performance metrics.
 
-#### 5. Evaluation
-**Objective:** To thoroughly evaluate the model(s) to ensure they meet the business objectives.
+**Example:** Use decision trees to predict performance and evaluate accuracy.
 
-- **Evaluate results:** Assess the models against the business success criteria.
-- **Review process:** Review the steps executed to ensure they align with the business objectives.
-- **Determine next steps:** Decide whether to deploy the model, iterate with more data, or explore alternative models.
+## 5. Evaluation
+**Objective:** Assess the models to ensure they meet objectives.
 
-**Example:** The retail company would compare the model predictions with actual sales data to determine accuracy and decide whether the model's predictions are useful for increasing sales. If the model performs well, it might be deployed in the business operations; otherwise, further refinement may be needed.
+- **Evaluate results:** Check against success criteria.
+- **Review process:** Ensure alignment with goals.
+- **Next steps:** Decide on deployment or further refinement.
 
-#### Summary
-These phases ensure a structured approach to data science projects, aligning technical work with business goals and systematically transforming raw data into actionable insights and predictions. This methodology promotes a clear, repeatable process, increasing the likelihood of successful outcomes.
+**Example:** Compare predictions to actual performance, decide on model deployment.
+
+## Summary
+CRISP-DM provides a structured approach to data science projects, aligning technical work with business goals, ensuring a clear, repeatable process, and increasing the likelihood of success.
 
 ### Goals  
 This project aims to develop a prediction model for the Marketing Department of a retail company to predict which customers are likely to respond to a marketing campaign based on information from a previous campaign. A response model can significantly enhance the efficiency of a marketing campaign by increasing responses or reducing expenses. Product manager Sarah striving to optimize the company marketing campaigns. With a keen eye on metrics like recall(>0.75) and F1 score, Sarah ensures their campaigns reach a broad audience (recall) while maintaining precision in targeting (F1 score > 0.5).
