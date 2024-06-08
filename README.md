@@ -174,7 +174,7 @@ The geometric mean (G-Mean), which combines the true positive rate (recall) and 
 ### Learning Curve:
 
 <p align="center">
-  <img width="500" height="350" src="figures/Learning_curve.png">
+  <img width="500" height="350" src="figures/Learning_Curve.png">
 </p>
 
 The learning curve shows the Logistic Regression model's performance on both training and cross-validation data, with convergence indicating consistent performance on unseen data, suggesting good generalization without significant underfitting or overfitting.
@@ -183,7 +183,7 @@ The learning curve shows the Logistic Regression model's performance on both tra
 ### ROC-AUC:
 
 <p align="center">
-  <img width="500" height="350" src="figures/ROC-AUC">
+  <img width="500" height="350" src="figures/ROC-AUC.png">
 </p>
 
 ROC AUC of 0.85 for both class 0 and class 1 indicates good discriminative power. The micro-average ROC AUC confirms that the model performs well on average across all classes.
@@ -192,7 +192,7 @@ ROC AUC of 0.85 for both class 0 and class 1 indicates good discriminative power
 ### Precision-Recall Curve:
 
 <p align="center">
-  <img width="500" height="350" src="figures/ROC-AUC">
+  <img width="500" height="350" src="figures/Precision-Recall.png">
 </p>
 
 An average precision (AP) of 0.55 indicates moderate performance in balancing precision and recall across all thresholds.
@@ -202,7 +202,7 @@ An average precision (AP) of 0.55 indicates moderate performance in balancing pr
 ### Confusion Matrix
 
 <p align="center">
-  <img width="500" height="350" src="figures/Confusion-Matrix">
+  <img width="500" height="350" src="figures/Confusion-Matrix.png">
 </p>
 
 The Logistic Regression model achieved the highest true positive rates (11.9%) and true negative rates (65.70%). Given the importance of recall (TPR) for business needs, this model performs well in identifying true positives.
