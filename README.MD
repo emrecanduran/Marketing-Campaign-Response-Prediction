@@ -5,7 +5,7 @@
 </div>
 
 
-*CRISP-DM Methodology*
+**CRISP-DM Methodology**
 
 - Business Understanding
 - Data Understanding
