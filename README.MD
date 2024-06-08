@@ -56,26 +56,6 @@ This project aims to develop a prediction model for the Marketing Department of 
 | **NumWebVisitsMonth**| Number of visits to the company’s website in the last month                  |
 | **Recency**          | Number of days since the last purchase                                       |
 
-## How to run   
-First, install dependencies   
-```bash
-# clone project   
-git clone https://github.com/YourGithubName/deep-learning-project-template
-
-# install project   
-cd deep-learning-project-template 
-pip install -e .   
-pip install -r requirements.txt
- ```   
- Next, navigate to any file and run it.   
- ```bash
-# module folder
-cd project
-
-# run module (example: mnist as your main contribution)   
-python lit_classifier_main.py    
-```
-
 ## Imports
 This project has following libraries:
 ```python
@@ -128,14 +108,14 @@ scikit-learn version: 1.3.2
 ### Performance Metrics
 
 **Train and Test Results:**
-
+```
 - **Accuracy:** Training set - 79.2%, Test set - 77.6%.
 - **Precision:** Training set - 79.1%, Test set - 38.2%.
 - **Recall:** Training and Test sets - 79.5%.
 - **F1-score:** Training set - 79.3%, Test set - 51.6%.
 - **Specificity:** Training set - 79.0%, Test set - 77.3%.
 - **G-Mean:** Training set - 79.2%, Test set - 78.4%.
-
+``` 
 ### Feature Importance
 
 Top 5 Features:
