@@ -6,8 +6,6 @@
 
 ### CRISP-DM Methodology
 
-# CRISP-DM for Student Project Using Logistic Regression
-
 ## 1. Business Understanding
 **Objective:** Define project goals and requirements from a business perspective.
 
