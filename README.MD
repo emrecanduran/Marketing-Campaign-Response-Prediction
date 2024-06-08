@@ -1,16 +1,16 @@
 ### Marketing Campaign Response Prediction project 
 
-- Built in setup.py
-- Built in requirements
-- Examples with MNIST
-- Badges
-- Bibtex
+CRISP-DM Methodology
+
+- Business Understanding
+- Data Understanding
+- Data Preparation
+- Modeling
+- Evaluation
 
 #### Goals  
-The goal of this seed is to structure ML paper-code the same so that work can easily be extended and replicated.   
-
-### DELETE EVERYTHING ABOVE FOR YOUR PROJECT  
- 
+This project aims to develop a prediction model for the Marketing Department of a retail company to predict which customers are likely to respond to a marketing campaign based on information from a previous campaign. A response model can significantly enhance the efficiency of a marketing campaign by increasing responses or reducing expenses.   
+  
 ---
 
 <div align="center">    
