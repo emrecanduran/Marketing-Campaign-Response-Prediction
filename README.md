@@ -148,7 +148,7 @@ Specificity, or the ability to correctly identify negative instances, is 79.0% o
 The geometric mean (G-Mean), which combines the true positive rate (recall) and the true negative rate (specificity), is 79.2% on the training set and 78.4% on the test set. This shows a balanced performance in identifying both positives and negatives, with only a slight reduction on the test set.
 
 <p align="center">G-mean = sqrt(Recall * Specificity)</p>
-
+<br>
 
 ### Feature Importance:
 
@@ -171,6 +171,7 @@ The geometric mean (G-Mean), which combines the true positive rate (recall) and 
 5. family_size
 
 *Significant Features*: income_level and marital_status also show notable impacts on the target variable.
+<br>
 
 ### Learning Curve:
 
