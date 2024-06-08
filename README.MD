@@ -1,10 +1,6 @@
 <div align="center">
- 
 # Marketing Campaign Response Prediction Project
- 
 </div>
-
----
 
 CRISP-DM Methodology
 
