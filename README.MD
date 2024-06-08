@@ -26,7 +26,7 @@ This project aims to develop a prediction model for the Marketing Department of 
 
 ---
  
-### Dataset Description   
+### Dataset description   
 
 | **Feature**          | **Description**                                                              |
 |----------------------|------------------------------------------------------------------------------|
