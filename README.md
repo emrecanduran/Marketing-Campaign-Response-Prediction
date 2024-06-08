@@ -104,7 +104,7 @@ seaborn version: 0.13.2
 scikit-learn version: 1.3.2
 ```   
 
-### Performance Metrics
+### Model Evaluation
 
 **Train and Test Results:**
 
@@ -117,7 +117,7 @@ scikit-learn version: 1.3.2
 | Specificity  | 79.0%        | 77.3%      |
 | G-Mean       | 79.2%        | 78.4%      |
 
-### Feature Importance
+**Feature Importance**
 
 | Feature                   | Coefficient |
 |---------------------------|-------------|
