@@ -71,22 +71,42 @@ python lit_classifier_main.py
 ## Imports
 This project is setup as a package which means you can now easily import any file into any other file like so:
 ```python
-from project.datasets.mnist import mnist
-from project.lit_classifier_main import LitClassifier
-from pytorch_lightning import Trainer
 
-# model
-model = LitClassifier()
+# Data Manipulation and Analysis
+import pandas as pd
+import numpy as np
+import re
+import collections
+from datetime import datetime
 
-# data
-train, val, test = mnist()
+# Data Visualization
+import matplotlib.pyplot as plt
+import seaborn as sns
+import graphviz
 
-# train
-trainer = Trainer()
-trainer.fit(model, train, val)
+# Data Preprocessing
+import imblearn
+import sklearn
+from imblearn.over_sampling import BorderlineSMOTE
+from sklearn.preprocessing import MinMaxScaler
+import category_encoders as ce
+from sklearn.impute import SimpleImputer
+from sklearn.impute import KNNImputer
 
-# test using the best model!
-trainer.test(test_dataloaders=test)
+# Machine Learning Model
+
+from sklearn.linear_model import LogisticRegression
+from yellowbrick.model_selection import RFECV
+
+# Model Selection and Evaluation
+from sklearn.model_selection import GridSearchCV, train_test_split
+from yellowbrick.model_selection import CVScores, LearningCurve
+from yellowbrick.classifier import DiscriminationThreshold, ClassPredictionError, PrecisionRecallCurve, ROCAUC
+from sklearn import metrics 
+import statsmodels.api as sm
+
+# Save the model
+import pickle
 ```
 
 ### Citation   
