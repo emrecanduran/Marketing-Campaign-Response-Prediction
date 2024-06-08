@@ -55,7 +55,7 @@ This project aims to develop a prediction model for the Marketing Department of 
 | **NumWebVisitsMonth**| Number of visits to the company’s website in the last month                  |
 | **Recency**          | Number of days since the last purchase                                       |
 
-### Imports
+## Imports
 This project has following libraries:
 ```python
 
@@ -95,7 +95,7 @@ import statsmodels.api as sm
 import pickle
 ```
 
-### Versions   
+## Versions   
 ```
 pandas version: 2.1.4
 numpy version: 1.23.5
