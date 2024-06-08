@@ -6,7 +6,7 @@
 
 ### CRISP-DM Methodology
 
-## 1. Business Understanding
+#### 1. Business Understanding
 **Objective:** Define project goals and requirements from a business perspective.
 
 - **Identify objectives:** Determine the primary goal.
@@ -14,7 +14,7 @@
 - **Data mining goals:** Translate objectives into data mining goals.
 - **Project plan:** Outline steps and timeline.
 
-## 2. Data Understanding
+#### 2. Data Understanding
 **Objective:** Gather and explore the data.
 
 - **Collect data:** Acquire relevant data.
@@ -22,7 +22,7 @@
 - **Explore data:** Identify patterns and relationships.
 - **Verify quality:** Address missing values and inconsistencies.
 
-## 3. Data Preparation
+#### 3. Data Preparation
 **Objective:** Prepare the final dataset for modeling.
 
 - **Select data:** Choose relevant data.
@@ -31,13 +31,20 @@
 - **Integrate data:** Combine data from different sources.
 - **Format data:** Normalize or scale features.
 
-## 4. Modeling
+#### 4. Modeling
 **Objective:** Apply Logistic Regression and evaluate its performance.
 
 - **Select techniques:** Logistic Regression.
 - **Test design:** Use train-test split.
 - **Build models:** Train the Logistic Regression model.
 - **Assess models:** Evaluate performance metrics.
+
+## 5. Evaluation
+**Objective:** Assess the models to ensure they meet objectives.
+
+- **Evaluate results:** Check against success criteria.
+- **Review process:** Ensure alignment with goals.
+- **Next steps:** Decide on deployment or further refinement.
 
 ### Goals  
 This project aims to develop a prediction model for the Marketing Department of a retail company to predict which customers are likely to respond to a marketing campaign based on information from a previous campaign. A response model can significantly enhance the efficiency of a marketing campaign by increasing responses or reducing expenses. Product manager Sarah striving to optimize the company marketing campaigns. With a keen eye on metrics like recall(>0.75) and F1 score, Sarah ensures their campaigns reach a broad audience (recall) while maintaining precision in targeting (F1 score > 0.5).
