@@ -25,9 +25,9 @@ CRISP-DM is like our roadmap for exploring and understanding data. It breaks dow
 This project aims to develop a prediction model for the Marketing Department of a retail company to predict which customers are likely to respond to a marketing campaign based on information from a previous campaign. A response model can significantly enhance the efficiency of a marketing campaign by increasing responses or reducing expenses. Product manager Sarah striving to optimize the company marketing campaigns. With a keen eye on metrics like recall(>0.75) and F1 score, Sarah ensures their campaigns reach a broad audience (recall) while maintaining precision in targeting (F1 score > 0.5).
 
 ---
- 
-### Dataset Description   
 
+### Dataset Description   
+<div align="center">
 | **Feature**          | **Description**                                                              |
 |----------------------|------------------------------------------------------------------------------|
 | **AcceptedCmp1**     | 1 if customer accepted the offer in the 1st campaign, 0 otherwise            |
@@ -55,7 +55,7 @@ This project aims to develop a prediction model for the Marketing Department of 
 | **NumWebPurchases**  | Number of purchases made through the company’s website                       |
 | **NumWebVisitsMonth**| Number of visits to the company’s website in the last month                  |
 | **Recency**          | Number of days since the last purchase                                       |
-
+</div>
 
 ## How to run   
 First, install dependencies   
