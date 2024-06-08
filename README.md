@@ -155,7 +155,7 @@ The geometric mean (G-Mean), which combines the true positive rate (recall) and 
 4. Recency
 5. family_size
 
-Significant Features: income_level and marital_status also show notable impacts on the target variable.
+*Significant Features*: income_level and marital_status also show notable impacts on the target variable.
 
 ### Learning Curve:
 
