@@ -1,7 +1,9 @@
 <div align="center">
-# Marketing Campaign Response Prediction Project
-</div>
 
+# Marketing Campaign Response Prediction Project
+
+</div>
+---
 CRISP-DM Methodology
 
 - Business Understanding
