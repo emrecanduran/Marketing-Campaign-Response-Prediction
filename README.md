@@ -26,7 +26,8 @@ This project aims to develop a prediction model for the Marketing Department of 
 ---
 
 ## Dataset Description   
-  
+<br>
+
 | **Feature**          | **Description**                                                              |
 |----------------------|------------------------------------------------------------------------------|
 | **AcceptedCmp1**     | 1 if customer accepted the offer in the 1st campaign, 0 otherwise            |
