@@ -117,6 +117,7 @@ scikit-learn version: 1.3.2
 | F1-score     | 79.3%        | 51.6%      |
 | Specificity  | 79.0%        | 77.3%      |
 | G-Mean       | 79.2%        | 78.4%      |
+<br>
 
 **Accuracy**:
 The model's accuracy on the training set is 79.2%, while on the test set, it is slightly lower at 77.6%. This indicates that the model performs fairly consistently across both datasets, with a slight drop in the test set, which is expected.
