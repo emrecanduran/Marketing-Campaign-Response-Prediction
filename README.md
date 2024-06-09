@@ -9,7 +9,7 @@
 CRISP-DM is like our roadmap for exploring and understanding data. It breaks down complex data projects into manageable steps, starting from understanding what the business needs are, all the way to deploying our solutions. It's super helpful because it keeps us organized and ensures we're on track with our goals. Plus, it's not just for one specific industry, so we can apply it to all sorts of projects, which is awesome for learning and building our skills. It's basically our guide to navigating the world of data mining!
 
 <p align="center">
-  <img width="550" height="550" src="figures/CRISP-DM.png">
+  <img width="550" height="550" src="figures/CRISP-DM.png" alt="CRISP-DM process diagram">
 </p>
 
 *    **Business Understanding**: determine business objectives; assess situation; determine data mining goals; produce project plan
