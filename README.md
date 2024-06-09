@@ -139,7 +139,7 @@ scikit-learn version: 1.3.2
 
 ### Results
 
-### Train and Test Results:
+### train and test results:
 
 | Metric       | Training Set | Test Set   |
 |--------------|--------------|------------|
