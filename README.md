@@ -218,3 +218,15 @@ The Logistic Regression model achieved the highest true positive rates (11.9%) a
 ### Overall Assessment
 
 Tree-based models did not generalize well, showing high differences between train and test scores. The Logistic Regression model demonstrates strong predictive performance with low differences between train and test results, indicating good generalization. It achieved the best results with the simplest model and fewer features. 
+
+### Understanding the Trade-Off
+
+*High Recall, Lower Precision:* (BUSINESS NEED)
+- **Scenario**: You send the campaign to a broad audience to capture nearly all potential responders.
+- **Pros**: Maximum reach, ensuring most potential customers are contacted.
+- **Cons**: Higher marketing costs, increased likelihood of annoying uninterested customers, lower overall campaign efficiency.
+
+*High Precision, Lower Recall:*
+- **Scenario**: You send the campaign to a targeted, highly likely-to-respond audience.
+- **Pros**: Cost-efficient, higher customer satisfaction due to relevant offers, better use of marketing resources.
+- **Cons**: Misses some potential responders, possibly reducing the total number of responses.
