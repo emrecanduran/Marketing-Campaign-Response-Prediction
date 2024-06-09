@@ -25,86 +25,107 @@ CRISP-DM is like our roadmap for exploring and understanding data. It breaks dow
 
 [Reference](https://github.com/mbenetti/CRISP-DM-Rossmann/blob/master/README.md)
 
-### Objective  
+### **Overview**
+<p>It is asked to develop a prediction model in such a way that it will be possible for the Marketing Department of a retail company to predict which customers are likely to respond to a marketing campaing based on information from a previous campaign.</p>
+<p>A response model can provide a significant boost to the efficiency of a marketing campaign by increasing responses or reducing expenses.</p>
 
-The customer whishes to build a model to predict everyday at 15h00 the total number of bikes they will rent the following day. This will allow them not only to better allocate staff resources, but also to define their daily marketing budget in social media which is their principal form of advertisement.
+### **What is needed for the model to be considered successfull ?** 
+Product manager Sarah striving to optimize the company marketing campaigns. With a keen eye on metrics like recall(>0.75) and F1 score, Sarah ensures their campaigns reach a broad audience (recall) while maintaining precision in targeting (F1 score > 0.5). 
 
-### Model building
+### **Model building**
 
-To achieve the objective, it is followed a systematic approach, CRISP-DM, that involves several stages. It is started by preparing the data, cleaning, and organizing it for analysis. Next, perform exploratory data analysis (EDA) to gain insights into the dataset and identify any patterns or trends. Once I have a thorough understanding of the data, it is proceed to train and evaluate predictive models using 4 different machine learning techniques with their best parameters such as:
+To achieve the objective, it is followed a systematic approach, CRISP-DM, that involves several stages and proceed to train and evaluate predictive models using 4 different machine learning models with their best parameters such as:
 
-1. Random Forest Regressor
-2. XGBoost
-3. GradientBoosting
-4. Lasso Regression (best)
+- Decision Tree 
+- Random Forest 
+- XGBoost
+- Logistic Regression
 
-It is tried to explore various models from different families, including bagging techniques like RandomForestRegressor, boosting methods such as XGBoost and GradientBoosting, as well as Lasso Regression.
+It is tried to explore various models from different families, including bagging techniques like Random Forest, boosting methods such as XGBoost, as well as Logistic Regression which is linear model. Logistic Regression is selected as a best model.
+
+### **Questions or additional informations**
+For any additional questions, don't hesitate to get in touch with the instructors. The instructors will also act as the company business/project stakeholder.
 
 ## Dataset Description   
 <br>
 
-| Column Name | Description                                                                                                                           |
-|-------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| instant     | record index                                                                                                                          |
-| dteday      | date                                                                                                                                  |
-| season      | season (1:spring, 2:summer, 3:fall, 4:winter)                                                                                        |
-| yr          | year (0: 2011, 1:2012)                                                                                                               |
-| mnth        | month (1 to 12)                                                                                                                       |
-| holiday     | weather day is holiday or not (extracted from [holiday schedule](http://dchr.dc.gov/page/holiday-schedule))                          |
-| weekday     | day of the week                                                                                                                       |
-| workingday  | if day is neither weekend nor holiday is 1, otherwise is 0                                                                           |
-| schoolday   | if day is a normal school day is 1, otherwise is 0                                                                                   |
-| weathersit  | 1: Clear, Few clouds, Partly cloudy, Partly cloudy<br>2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist<br>3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds<br>4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog |
-| temp        | Normalized temperature in Celsius. The values are divided to 41 (max)                                                                 |
-| atemp       | Normalized feeling temperature in Celsius. The values are divided to 50 (max)                                                        |
-| hum         | Normalized humidity. The values are divided to 100 (max)                                                                              |
-| windspeed   | Normalized wind speed. The values are divided to 67 (max)                                                                             |
-| casual      | count of casual users                                                                                                                 |
-| registered  | count of registered users                                                                                                             |
-| cnt         | count of total rental bikes including both casual and registered       
+| Feature               | Description                                                    |
+|-----------------------|----------------------------------------------------------------|
+| AcceptedCmp1          | 1 if customer accepted the offer in the 1st campaign, 0 otherwise |
+| AcceptedCmp2          | 1 if customer accepted the offer in the 2nd campaign, 0 otherwise |
+| AcceptedCmp3          | 1 if customer accepted the offer in the 3rd campaign, 0 otherwise |
+| AcceptedCmp4          | 1 if customer accepted the offer in the 4th campaign, 0 otherwise |
+| AcceptedCmp5          | 1 if customer accepted the offer in the 5th campaign, 0 otherwise |
+| Response (target)     | 1 if customer accepted the offer in the last campaign, 0 otherwise |
+| Complain              | 1 if customer complained in the last 2 years                   |
+| DtCustomer            | Date of customer’s enrolment with the company                  |
+| Education             | Customer’s level of education                                  |
+| Marital               | Customer’s marital status                                      |
+| Kidhome               | Number of small children in customer’s household               |
+| Teenhome              | Number of teenagers in customer’s household                    |
+| Income                | Customer’s yearly household income                             |
+| MntFishProducts       | Amount spent on fish products in the last 2 years              |
+| MntMeatProducts       | Amount spent on meat products in the last 2 years              |
+| MntFruits             | Amount spent on fruits products in the last 2 years            |
+| MntSweetProducts      | Amount spent on sweet products in the last 2 years             |
+| MntWines              | Amount spent on wine products in the last 2 years              |
+| MntGoldProds          | Amount spent on gold products in the last 2 years              |
+| NumDealsPurchases     | Number of purchases made with discount                         |
+| NumCatalogPurchases   | Number of purchases made using catalogue                       |
+| NumStorePurchases     | Number of purchases made directly in stores                    |
+| NumWebPurchases       | Number of purchases made through company’s web site            |
+| NumWebVisitsMonth     | Number of visits to company’s web site in the last month       |
+| Recency               | Number of days since the last purchase                         |
 
 
 ## Imports
 This project has following libraries:
 ```python
 
-# Import necessary libraries
-import numpy as np
+# Data Manipulation and Analysis
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-import category_encoders as ce
+import numpy as np
 import re
-import math
-import calendar
+import collections
+from datetime import datetime
+
+# Data Visualization
+import matplotlib.pyplot as plt
+import seaborn as sns
 import graphviz
-import warnings
-from tabulate import tabulate
-import time
-import optuna
+
+# Data Preprocessing
+import imblearn
+import sklearn
+from imblearn.over_sampling import BorderlineSMOTE
+from sklearn.preprocessing import MinMaxScaler
+import category_encoders as ce
+from sklearn.impute import SimpleImputer
+from sklearn.impute import KNNImputer
+
+# Machine Learning Model
+
+from sklearn.linear_model import LogisticRegression
+from yellowbrick.model_selection import RFECV
+
+# Model Selection and Evaluation
+from sklearn.model_selection import GridSearchCV, train_test_split
+from yellowbrick.model_selection import CVScores, LearningCurve
+from yellowbrick.classifier import DiscriminationThreshold, ClassPredictionError, PrecisionRecallCurve, ROCAUC
+from sklearn import metrics 
+import statsmodels.api as sm
+
+# Save the model
 import pickle
 
-# Machine Learning Libraries
-from sklearn import tree
-from sklearn.linear_model import Lasso
-from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor, StackingRegressor
-from xgboost import XGBRegressor
-from sklearn.model_selection import train_test_split, cross_val_score, KFold
-from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error, mean_absolute_percentage_error, max_error, make_scorer
-from yellowbrick.model_selection import RFECV, LearningCurve
-from yellowbrick.regressor import PredictionError, ResidualsPlot
-import xgboost as xgb
-
-# Set random state and cross-validation folds
-random_state = 2024
-n_splits = 10
-cv = 10
-
-# Warnings handling
-warnings.filterwarnings("ignore")
+# Assign random state for reproducebility
+random_state=2024
 
 # Set seaborn style
 sns.set_style("whitegrid")
+
+# Set the max_columns option to None to display all columns
+pd.set_option('display.max_columns', None)
 ```
 
 ## Versions   
