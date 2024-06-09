@@ -105,7 +105,7 @@ seaborn version: 0.13.2
 scikit-learn version: 1.3.2
 ```   
 
-## Model Evaluation
+## Results
 
 ### Train and Test Results:
 
