@@ -19,7 +19,7 @@ CRISP-DM is like our roadmap for exploring and understanding data. It breaks dow
 *    **Evaluation**: evaluate results; review process; determine next steps
 *    **Deployment**: plan deployment; plan monitoring and maintenance; produce final report; review project (deployment was not required for this project)
 
-[Reference]([https://github.com](https://github.com/mbenetti/CRISP-DM-Rossmann/blob/master/README.md])
+[Reference](https://github.com/mbenetti/CRISP-DM-Rossmann/blob/master/README.md)
 
 ## Objective  
 This project aims to develop a prediction model for the Marketing Department of a retail company to predict which customers are likely to respond to a marketing campaign based on information from a previous campaign. A response model can significantly enhance the efficiency of a marketing campaign by increasing responses or reducing expenses. 
