@@ -221,7 +221,7 @@ Tree-based models did not generalize well, showing high differences between trai
 
 ### Understanding the Trade-Off
 
-*High Recall, Lower Precision:* (business need)
+*High Recall, Lower Precision (business need):* 
 - **Scenario**: You send the campaign to a broad audience to capture nearly all potential responders.
 - **Pros**: Maximum reach, ensuring most potential customers are contacted.
 - **Cons**: Higher marketing costs, increased likelihood of annoying uninterested customers, lower overall campaign efficiency.
