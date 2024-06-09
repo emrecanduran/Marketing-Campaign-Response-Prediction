@@ -46,7 +46,7 @@ It is tried to explore various models from different families, including bagging
 ### **Questions or additional informations**
 For any additional questions, don't hesitate to get in touch with the instructors. The instructors will also act as the company business/project stakeholder.
 
-## Dataset Description   
+### Dataset Description   
 <br>
 
 | Feature               | Description                                                    |
@@ -78,7 +78,7 @@ For any additional questions, don't hesitate to get in touch with the instructor
 | Recency               | Number of days since the last purchase                         |
 
 
-## Imports
+### Imports
 This project has following libraries:
 ```python
 
@@ -128,7 +128,7 @@ sns.set_style("whitegrid")
 pd.set_option('display.max_columns', None)
 ```
 
-## Versions   
+### Versions   
 ```
 pandas version: 2.1.4
 numpy version: 1.23.5
@@ -137,9 +137,9 @@ seaborn version: 0.13.2
 scikit-learn version: 1.3.2
 ```   
 
-## Results
+### Results
 
-### Train and Test Results:
+#### Train and Test Results:
 
 | Metric       | Training Set | Test Set   |
 |--------------|--------------|------------|
@@ -182,7 +182,7 @@ The geometric mean (G-Mean), which combines the true positive rate (recall) and 
 *<p align="center">G-mean = sqrt(Recall * Specificity)</p>*
 <br>
 
-### Feature Importance:
+#### Feature Importance:
 
 | Feature                   | Coefficient |
 |---------------------------|-------------|
@@ -205,7 +205,7 @@ The geometric mean (G-Mean), which combines the true positive rate (recall) and 
 *Significant Features*: income_level and marital_status also show notable impacts on the target variable.
 <br>
 
-### Learning Curve:
+#### Learning Curve:
 
 <p align="center">
   <img width="500" height="350" src="figures/Learning-Curve.png">
